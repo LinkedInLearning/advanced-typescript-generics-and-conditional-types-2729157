@@ -1,0 +1,18 @@
+"use strict";
+function logAnimalName(animal) {
+    console.log(animal.name);
+}
+logAnimalName({
+    name: "Biscuit",
+    species: "cat",
+    age: 17
+});
+const numbers = [1, 2, 3, 4, 5];
+const strings = ["a", "b", "c", "d"];
+const animals = [
+    { name: "Jungle", species: "cat" },
+    { name: "Pie", species: "dog" },
+    { name: "Jason", species: "rabbit" }
+];
+console.log(animals);
+console.log(numbers);
